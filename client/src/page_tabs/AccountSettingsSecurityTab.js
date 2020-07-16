@@ -39,7 +39,6 @@ const AccountSettingsSecurityTab = (props) => {
         <Typography variant="subtitle1">Your Profile Information</Typography>
         <List>
           <FieldListItem label="Email" value={ account.email } />
-          <FieldListItem label="SMS Number" value={ account.sms_number } />
         </List>
       </TabPanel>
     );

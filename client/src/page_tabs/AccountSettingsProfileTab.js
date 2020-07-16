@@ -111,12 +111,7 @@ const AccountSettingsProfileTab = (props) => {
       { get_action_button() }
       <Typography variant="subtitle1">Your Profile Information</Typography>
       <List>
-        { get_text_field("First Name", "first_name") }
-        { get_text_field("Last Name", "last_name") }
-        { get_text_field("Company Name", "company_name") }
-        { get_text_field("SMS name", "sms_name") }
-        { get_checkbox("Get email for incoming texts", "email_incoming") }
-        { get_checkbox("Get email for outgoing texts", "email_outgoing") }
+        { get_text_field("Name", "name") }
         { get_update_button() }
       </List>
 
