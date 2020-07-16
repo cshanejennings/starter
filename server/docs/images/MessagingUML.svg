@@ -1,0 +1,563 @@
+<svg id="mermaid-1593378692196" width="533.875" xmlns="http://www.w3.org/2000/svg" height="500" viewBox="-20 -20 533.875 500"><style>
+
+
+
+#mermaid-1593378692196 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  color: #333; }
+
+#mermaid-1593378692196 .label text {
+  fill: #333; }
+
+#mermaid-1593378692196 .node rect,
+#mermaid-1593378692196 .node circle,
+#mermaid-1593378692196 .node ellipse,
+#mermaid-1593378692196 .node polygon,
+#mermaid-1593378692196 .node path {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1593378692196 .node .label {
+  text-align: center; }
+
+#mermaid-1593378692196 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1593378692196 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1593378692196 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1593378692196 .edgeLabel {
+  background-color: #e8e8e8;
+  text-align: center; }
+#mermaid-1593378692196   .edgeLabel rect {
+    opacity: 0.5; }
+
+#mermaid-1593378692196 .cluster rect {
+  fill: #ffffde;
+  stroke: #aaaa33;
+  stroke-width: 1px; }
+
+#mermaid-1593378692196 .cluster text {
+  fill: #333; }
+
+#mermaid-1593378692196 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1593378692196 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1593378692196 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1593378692196 .actor-line {
+  stroke: grey; }
+
+#mermaid-1593378692196 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1593378692196 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1593378692196 #arrowhead {
+  fill: #333; }
+
+#mermaid-1593378692196 .sequenceNumber {
+  fill: white; }
+
+#mermaid-1593378692196 #sequencenumber {
+  fill: #333; }
+
+#mermaid-1593378692196 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1593378692196 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1593378692196 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1593378692196 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1593378692196 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1593378692196 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #CCCCFF; }
+
+#mermaid-1593378692196 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1593378692196 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 14px; }
+
+#mermaid-1593378692196 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1593378692196 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1593378692196 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1593378692196 .mermaid-main-font {
+  font-family: "trebuchet ms", verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593378692196 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1593378692196 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1593378692196 .section2 {
+  fill: #fff400; }
+
+#mermaid-1593378692196 .section1,
+#mermaid-1593378692196 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1593378692196 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1593378692196 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1593378692196 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1593378692196 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1593378692196 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+
+#mermaid-1593378692196 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.8;
+  shape-rendering: crispEdges; }
+#mermaid-1593378692196   .grid .tick text {
+    font-family: 'trebuchet ms', verdana, arial;
+    font-family: var(--mermaid-font-family); }
+
+#mermaid-1593378692196 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1593378692196 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1593378692196 .task {
+  stroke-width: 2; }
+
+#mermaid-1593378692196 .taskText {
+  text-anchor: middle;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593378692196 .taskText:not([font-size]) {
+  font-size: 11px; }
+
+#mermaid-1593378692196 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593378692196 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1593378692196 .task.clickable {
+  cursor: pointer; }
+
+#mermaid-1593378692196 .taskText.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1593378692196 .taskTextOutsideLeft.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1593378692196 .taskTextOutsideRight.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+
+#mermaid-1593378692196 .taskText0,
+#mermaid-1593378692196 .taskText1,
+#mermaid-1593378692196 .taskText2,
+#mermaid-1593378692196 .taskText3 {
+  fill: white; }
+
+#mermaid-1593378692196 .task0,
+#mermaid-1593378692196 .task1,
+#mermaid-1593378692196 .task2,
+#mermaid-1593378692196 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1593378692196 .taskTextOutside0,
+#mermaid-1593378692196 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1593378692196 .taskTextOutside1,
+#mermaid-1593378692196 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1593378692196 .active0,
+#mermaid-1593378692196 .active1,
+#mermaid-1593378692196 .active2,
+#mermaid-1593378692196 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1593378692196 .activeText0,
+#mermaid-1593378692196 .activeText1,
+#mermaid-1593378692196 .activeText2,
+#mermaid-1593378692196 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1593378692196 .done0,
+#mermaid-1593378692196 .done1,
+#mermaid-1593378692196 .done2,
+#mermaid-1593378692196 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1593378692196 .doneText0,
+#mermaid-1593378692196 .doneText1,
+#mermaid-1593378692196 .doneText2,
+#mermaid-1593378692196 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1593378692196 .crit0,
+#mermaid-1593378692196 .crit1,
+#mermaid-1593378692196 .crit2,
+#mermaid-1593378692196 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1593378692196 .activeCrit0,
+#mermaid-1593378692196 .activeCrit1,
+#mermaid-1593378692196 .activeCrit2,
+#mermaid-1593378692196 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1593378692196 .doneCrit0,
+#mermaid-1593378692196 .doneCrit1,
+#mermaid-1593378692196 .doneCrit2,
+#mermaid-1593378692196 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1593378692196 .milestone {
+  transform: rotate(45deg) scale(0.8, 0.8); }
+
+#mermaid-1593378692196 .milestoneText {
+  font-style: italic; }
+
+#mermaid-1593378692196 .doneCritText0,
+#mermaid-1593378692196 .doneCritText1,
+#mermaid-1593378692196 .doneCritText2,
+#mermaid-1593378692196 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1593378692196 .activeCritText0,
+#mermaid-1593378692196 .activeCritText1,
+#mermaid-1593378692196 .activeCritText2,
+#mermaid-1593378692196 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1593378692196 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593378692196 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 10px; }
+#mermaid-1593378692196   g.classGroup text .title {
+    font-weight: bolder; }
+
+#mermaid-1593378692196 g.clickable {
+  cursor: pointer; }
+
+#mermaid-1593378692196 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1593378692196 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593378692196 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1593378692196 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1593378692196 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1593378692196 .dashed-line {
+  stroke-dasharray: 3; }
+
+#mermaid-1593378692196 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593378692196 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593378692196 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593378692196 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593378692196 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593378692196 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593378692196 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593378692196 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593378692196 .commit-id,
+#mermaid-1593378692196 .commit-msg,
+#mermaid-1593378692196 .branch-label {
+  fill: lightgrey;
+  color: lightgrey;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593378692196 .pieTitleText {
+  text-anchor: middle;
+  font-size: 25px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593378692196 .slice {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593378692196 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593378692196 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px; }
+
+#mermaid-1593378692196 g.stateGroup .state-title {
+  font-weight: bolder;
+  fill: black; }
+
+#mermaid-1593378692196 g.stateGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1593378692196 g.stateGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1593378692196 .transition {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1593378692196 .stateGroup .composit {
+  fill: white;
+  border-bottom: 1px; }
+
+#mermaid-1593378692196 .stateGroup .alt-composit {
+  fill: #e0e0e0;
+  border-bottom: 1px; }
+
+#mermaid-1593378692196 .state-note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+#mermaid-1593378692196   .state-note text {
+    fill: black;
+    stroke: none;
+    font-size: 10px; }
+
+#mermaid-1593378692196 .stateLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1593378692196 .stateLabel text {
+  fill: black;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1593378692196 .node circle.state-start {
+  fill: black;
+  stroke: black; }
+
+#mermaid-1593378692196 .node circle.state-end {
+  fill: black;
+  stroke: white;
+  stroke-width: 1.5; }
+
+#mermaid-1593378692196 #statediagram-barbEnd {
+  fill: #9370DB; }
+
+#mermaid-1593378692196 .statediagram-cluster rect {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1593378692196 .statediagram-cluster rect.outer {
+  rx: 5px;
+  ry: 5px; }
+
+#mermaid-1593378692196 .statediagram-state .divider {
+  stroke: #9370DB; }
+
+#mermaid-1593378692196 .statediagram-state .title-state {
+  rx: 5px;
+  ry: 5px; }
+
+#mermaid-1593378692196 .statediagram-cluster.statediagram-cluster .inner {
+  fill: white; }
+
+#mermaid-1593378692196 .statediagram-cluster.statediagram-cluster-alt .inner {
+  fill: #e0e0e0; }
+
+#mermaid-1593378692196 .statediagram-cluster .inner {
+  rx: 0;
+  ry: 0; }
+
+#mermaid-1593378692196 .statediagram-state rect.basic {
+  rx: 5px;
+  ry: 5px; }
+
+#mermaid-1593378692196 .statediagram-state rect.divider {
+  stroke-dasharray: 10,10;
+  fill: #efefef; }
+
+#mermaid-1593378692196 .note-edge {
+  stroke-dasharray: 5; }
+
+#mermaid-1593378692196 .statediagram-note rect {
+  fill: #fff5ad;
+  stroke: #aaaa33;
+  stroke-width: 1px;
+  rx: 0;
+  ry: 0; }
+
+:root {
+  --mermaid-font-family: '"trebuchet ms", verdana, arial';
+  --mermaid-font-family: "Comic Sans MS", "Comic Sans", cursive; }
+
+:root { --mermaid-font-family: "trebuchet ms", verdana, arial;}</style><style>#mermaid-1593378692196 {
+    color: rgb(0, 0, 0);
+    font: 16px "trebuchet ms", verdana, arial;
+  }</style><g></g><defs><marker id="extensionStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 1,7 L18,13 V 1 Z"></path></marker></defs><defs><marker id="extensionEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 1,1 V 13 L18,7 Z"></path></marker></defs><defs><marker id="compositionStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="compositionEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="aggregationStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="aggregationEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="dependencyStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 5,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="dependencyEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 18,7 L9,13 L14,7 L9,1 Z"></path></marker></defs><g id="classid-User-855" class="classGroup " transform="translate(0,15 )"><rect x="0" y="0" width="123.46875" height="111"></rect><text y="15" x="0"><tspan class="title" x="50.8125">User</tspan></text><line x1="0" y1="21" y2="21" x2="123.46875"></line><text x="5" y="31" fill="white" class="classText"><tspan x="5">+first_name: String</tspan><tspan x="5" dy="10">+last_name: String</tspan><tspan x="5" dy="10">+email: String</tspan><tspan x="5" dy="10">#sms_number: String</tspan><tspan x="5" dy="10">#sms_name: String</tspan><tspan x="5" dy="10">+last_msg: Date</tspan><tspan x="5" dy="10">+company_name: String</tspan><tspan x="5" dy="10">-password: String</tspan></text><line x1="0" y1="107" y2="107" x2="123.46875"></line><text x="5" y="122" fill="white" class="classText"></text></g><g id="classid-Thread-856" class="classGroup " transform="translate(13.171875,191 )"><rect x="0" y="0" width="97.125" height="128"></rect><text y="15" x="0"><tspan class="title" x="31.359375">Thread</tspan></text><line x1="0" y1="21" y2="21" x2="97.125"></line><text x="5" y="31" fill="white" class="classText"><tspan x="5">- id: int</tspan><tspan x="5" dy="10">- user_id: int</tspan><tspan x="5" dy="10">- cell_num: String</tspan><tspan x="5" dy="10">- due: ts</tspan><tspan x="5" dy="10">- msg_count: int</tspan><tspan x="5" dy="10">- created_at: ts</tspan><tspan x="5" dy="10">- updated_at: ts</tspan><tspan x="5" dy="10">- deleted_at: ts</tspan></text><line x1="0" y1="107" y2="107" x2="97.125"></line><text x="5" y="122" fill="white" class="classText"><tspan x="5">messages()</tspan></text></g><g id="classid-Message-857" class="classGroup " transform="translate(18.0625,369 )"><rect x="0" y="0" width="87.34375" height="91"></rect><text y="15" x="0"><tspan class="title" x="24.0859375">Message</tspan></text><line x1="0" y1="21" y2="21" x2="87.34375"></line><text x="5" y="31" fill="white" class="classText"><tspan x="5">- id: int</tspan><tspan x="5" dy="10">- thread_id: int</tspan><tspan x="5" dy="10">- msg: String</tspan><tspan x="5" dy="10">- type: String</tspan><tspan x="5" dy="10">- created_at: ts</tspan><tspan x="5" dy="10">- deleted_at: ts</tspan></text><line x1="0" y1="87" y2="87" x2="87.34375"></line><text x="5" y="102" fill="white" class="classText"></text></g><g id="classid-TwilioSMS-858" class="classGroup " transform="translate(173.46875,0 )"><rect x="0" y="0" width="121.671875" height="141"></rect><text y="15" x="0"><tspan class="title" x="37.1796875">TwilioSMS</tspan></text><line x1="0" y1="21" y2="21" x2="121.671875"></line><text x="5" y="31" fill="white" class="classText"><tspan x="5">+AccountSid: String</tspan><tspan x="5" dy="10">+SmsStatus: String</tspan><tspan x="5" dy="10">+To: String</tspan><tspan x="5" dy="10">+From: String</tspan><tspan x="5" dy="10">+Body: String</tspan><tspan x="5" dy="10">+SmsMessageSid: String</tspan><tspan x="5" dy="10">+NumMedia: String</tspan><tspan x="5" dy="10">+NumSegments: String</tspan><tspan x="5" dy="10">+MessageSid: String</tspan><tspan x="5" dy="10">+ApiVersion: String</tspan><tspan x="5" dy="10">+MediaUrlX: String</tspan></text><line x1="0" y1="137" y2="137" x2="121.671875"></line><text x="5" y="152" fill="white" class="classText"></text></g><g id="classid-Env-859" class="classGroup " transform="translate(345.140625,45 )"><rect x="0" y="0" width="148.734375" height="51"></rect><text y="15" x="0"><tspan class="title" x="65.5703125">Env</tspan></text><line x1="0" y1="21" y2="21" x2="148.734375"></line><text x="5" y="31" fill="white" class="classText"><tspan x="5">-TWILIO_SID: String</tspan><tspan x="5" dy="10">-TWILIO_AUTH_TOKEN: String</tspan></text><line x1="0" y1="47" y2="47" x2="148.734375"></line><text x="5" y="62" fill="white" class="classText"></text></g><path d="M61.734375,126L61.734375,132.66666666666666C61.734375,139.33333333333334,61.734375,152.66666666666666,61.734375,163.5C61.734375,174.33333333333334,61.734375,182.66666666666666,61.734375,186.83333333333334L61.734375,191" id="edge340" class="relation" marker-start="url(#extensionStart)"></path><path d="M61.734375,319L61.734375,323.1666666666667C61.734375,327.3333333333333,61.734375,335.6666666666667,61.734375,344C61.734375,352.3333333333333,61.734375,360.6666666666667,61.734375,364.8333333333333L61.734375,369" id="edge341" class="relation" marker-start="url(#extensionStart)"></path></svg>
